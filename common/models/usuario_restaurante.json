@@ -1,0 +1,21 @@
+{
+  "name": "usuario_restaurante",
+  "plural": "usuarios_restaurantes",
+  "base": "PersistedModel",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "restaurante": {
+      "type": "belongsTo",
+      "model": "restaurante",
+      "foreignKey": ""
+    },
+    "usuario": {
+      "type": "belongsTo",
+      "model": "usuario",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

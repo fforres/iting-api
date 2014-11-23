@@ -1,0 +1,36 @@
+{
+  "name": "usuario",
+  "plural": "usuarios",
+  "base": "User",
+  "properties": {}, 
+  "validations": [],
+  "relations": {
+	"restaurantes": {
+      "type": "hasMany",
+      "model": "restaurante", 
+      "foreignKey": "",
+      "through": "usuario_restaurante"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW"
+    }, 
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "owner",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "localadmin",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": []
+}

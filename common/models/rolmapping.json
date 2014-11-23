@@ -1,0 +1,10 @@
+{
+  "name": "rolmapping",
+  "plural": "rolmappings",
+  "base": "RoleMapping",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

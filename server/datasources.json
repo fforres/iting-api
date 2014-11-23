@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "ds051990.mongolab.com",
+    "port": 51990,
+    "database": "iting",
+    "username": "iting",
+    "password": "iting",
+    "name": "mongodb",
+    "connector": "mongodb"
+  }
+}

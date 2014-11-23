@@ -1,0 +1,48 @@
+{
+  "name": "restaurante",
+  "plural": "restaurantes",
+  "base": "PersistedModel",
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string",
+      "required": true
+    },
+    "web": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "categoria": {
+      "type": "belongsTo",
+      "model": "categoria",
+      "foreignKey": ""
+    },
+    "comuna": {
+      "type": "belongsTo",
+      "model": "comuna",
+      "foreignKey": ""
+    },
+    "usuarios": {
+      "type": "hasMany",
+      "model": "usuario",
+      "foreignKey": "",
+      "through": "usuario_restaurante"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

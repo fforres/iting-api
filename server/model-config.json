@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "ACL": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "RoleMapping": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "categoria": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "restaurante": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "comuna": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "usuario": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "usuario_restaurante": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "rolmapping": {
+    "dataSource": "mongodb",
+    "public": true
+  }
+}
