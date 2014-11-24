@@ -1,0 +1,19 @@
+{
+  "name": "item",
+  "plural": "items",
+  "base": "PersistedModel",
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "cantidadactual": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "movimientoitem",
+  "plural": "movimientositems",
+  "base": "PersistedModel",
+  "properties": {
+    "fechamovimiento": {
+      "type": "date"
+    },
+    "cantidad": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

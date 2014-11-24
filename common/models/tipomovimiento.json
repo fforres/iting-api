@@ -1,0 +1,14 @@
+{
+  "name": "tipomovimiento",
+  "plural": "tiposmovimientos",
+  "base": "PersistedModel",
+  "properties": {
+    "nombre": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

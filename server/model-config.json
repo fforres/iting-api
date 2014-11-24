@@ -50,5 +50,25 @@
   "rolmapping": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "tipoplato": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "item": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "restaurantitem": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "movimientoitem": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "tipomovimiento": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

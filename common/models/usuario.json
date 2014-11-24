@@ -2,12 +2,12 @@
   "name": "usuario",
   "plural": "usuarios",
   "base": "User",
-  "properties": {}, 
+  "properties": {},
   "validations": [],
   "relations": {
-	"restaurantes": {
+    "restaurantes": {
       "type": "hasMany",
-      "model": "restaurante", 
+      "model": "restaurante",
       "foreignKey": "",
       "through": "usuario_restaurante"
     }
@@ -18,7 +18,7 @@
       "principalType": "ROLE",
       "principalId": "admin",
       "permission": "ALLOW"
-    }, 
+    },
     {
       "accessType": "READ",
       "principalType": "ROLE",
