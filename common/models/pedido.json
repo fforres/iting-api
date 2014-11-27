@@ -1,0 +1,17 @@
+{
+  "name": "pedido",
+  "plural": "pedidos",
+  "base": "PersistedModel",
+  "properties": {
+    "fecha": {
+      "type": "date"
+    },
+    "pagado": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

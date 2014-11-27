@@ -1,0 +1,10 @@
+{
+  "name": "platopedido",
+  "plural": "platospedidos",
+  "base": "PersistedModel",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

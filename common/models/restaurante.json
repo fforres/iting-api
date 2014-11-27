@@ -41,6 +41,21 @@
       "model": "usuario",
       "foreignKey": "",
       "through": "usuario_restaurante"
+    },
+    "platos": {
+      "type": "hasAndBelongsToMany",
+      "model": "plato",
+      "foreignKey": ""
+    },
+    "items": {
+      "type": "hasAndBelongsToMany",
+      "model": "item",
+      "foreignKey": ""
+    },
+    "mesas": {
+      "type": "hasAndBelongsToMany",
+      "model": "mesa",
+      "foreignKey": ""
     }
   },
   "acls": [],

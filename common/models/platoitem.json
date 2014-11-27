@@ -1,0 +1,10 @@
+{
+  "name": "platoitem",
+  "plural": "platositems",
+  "base": "PersistedModel",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
