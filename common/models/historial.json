@@ -1,0 +1,28 @@
+{
+  "name": "historial",
+  "plural": "historiales",
+  "base": "PersistedModel",
+  "properties": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+      "restaurante": 
+        {
+            "type": "belongsTo",
+            "model": "restaurante",
+            "foreignKey": ""
+        },
+        "historialdescripcion": 
+        {
+            "type": "hasMany",
+            "model": "historialdescripcion",
+            "foreignKey": ""
+        }
+  },
+  "acls": [],
+  "methods": []
+}

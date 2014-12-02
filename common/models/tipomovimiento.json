@@ -5,10 +5,23 @@
   "properties": {
     "nombre": {
       "type": "string"
+    },
+    "orden": {
+      "type": "number"
+    },
+    "tienevalordeunidad": {
+      "type": "boolean"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "historiales": {
+      "type": "hasMany",
+      "model": "historial",
+      "foreignKey": "",
+      "through": "mesapedido"
+    }
+  },
   "acls": [],
   "methods": []
 }

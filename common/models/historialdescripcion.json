@@ -1,0 +1,33 @@
+{
+  "name": "historialdescripcion",
+  "plural": "historialesdescripciones",
+  "base": "PersistedModel",
+  "properties": {
+    "cantidad": {
+      "type": "number"
+    },
+    "costoUnidad": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "item": {
+      "type": "belongsTo",
+      "model": "item",
+      "foreignKey": ""
+    },
+    "tipomovimiento": {
+      "type": "belongsTo",
+      "model": "tipomovimiento",
+      "foreignKey": ""
+    },
+    "historial": {
+      "type": "belongsTo",
+      "model": "historial",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

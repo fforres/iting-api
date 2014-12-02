@@ -11,7 +11,20 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "platos": {
+      "type": "hasMany",
+      "model": "plato",
+      "foreignKey": "",
+      "through": "platopedido"
+    },
+    "mesas": {
+      "type": "hasMany",
+      "model": "mesa",
+      "foreignKey": "",
+      "through": "mesapedido"
+    }
+  },
   "acls": [],
   "methods": []
 }

@@ -43,18 +43,23 @@
       "through": "usuario_restaurante"
     },
     "platos": {
-      "type": "hasAndBelongsToMany",
-      "model": "plato",
+      "type": "hasMany",
+      "model": "categoriaitem",
       "foreignKey": ""
     },
     "items": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "item",
       "foreignKey": ""
     },
     "mesas": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "mesa",
+      "foreignKey": ""
+    },
+    "historiales": {
+      "type": "hasMany",
+      "model": "historial",
       "foreignKey": ""
     }
   },

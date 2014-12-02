@@ -4,7 +4,18 @@
   "base": "PersistedModel",
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "mesa": {
+      "type": "belongsTo",
+      "model": "mesa",
+      "foreignKey": ""
+    },
+    "pedido": {
+      "type": "belongsTo",
+      "model": "pedido",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }

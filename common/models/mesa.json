@@ -9,10 +9,16 @@
   },
   "validations": [],
   "relations": {
-  	"restaurante": {
+    "restaurante": {
       "type": "belongsTo",
       "model": "restaurante",
       "foreignKey": ""
+    },
+    "pedidos": {
+      "type": "hasMany",
+      "model": "pedido",
+      "foreignKey": "",
+      "through": "mesapedido"
     }
   },
   "acls": [],

@@ -4,7 +4,18 @@
   "base": "PersistedModel",
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "plato": {
+      "type": "belongsTo",
+      "model": "plato",
+      "foreignKey": ""
+    },
+    "item": {
+      "type": "belongsTo",
+      "model": "item",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }

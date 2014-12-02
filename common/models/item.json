@@ -10,13 +10,37 @@
     "cantidadactual": {
       "type": "number",
       "required": true
+    },
+    "descripcion": {
+      "type": "string",
+      "required": false
+    },
+    "unidaddemedida": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-  	"restaurante": {
+    "restaurante": {
       "type": "belongsTo",
       "model": "restaurante",
+      "foreignKey": ""
+    },
+    "platos": {
+      "type": "hasMany",
+      "model": "plato",
+      "foreignKey": "",
+      "through": "platoitem"
+    },
+    "historial": {
+      "type": "hasMany",
+      "model": "historialdescripcion",
+      "foreignKey": ""
+    },
+    "categoriaitem": {
+      "type": "belongsTo",
+      "model": "categoriaitem",
       "foreignKey": ""
     }
   },

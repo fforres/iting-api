@@ -1,6 +1,6 @@
 {
-  "name": "comuna",
-  "plural": "comunas",
+  "name": "categoriaitem",
+  "plural": "categoriasitems",
   "base": "PersistedModel",
   "properties": {
     "nombre": {
@@ -10,9 +10,9 @@
   },
   "validations": [],
   "relations": {
-    "restaurantes": {
+    "items": {
       "type": "hasMany",
-      "model": "restaurante",
+      "model": "item",
       "foreignKey": ""
     }
   },

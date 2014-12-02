@@ -55,7 +55,7 @@
     "dataSource": "mongodb",
     "public": true
   },
-  "movimientoitem": {
+  "historialdescripcion": {
     "dataSource": "mongodb",
     "public": true
   },
@@ -84,6 +84,14 @@
     "public": true
   },
   "platopedido": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "categoriaitem": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "historial": {
     "dataSource": "mongodb",
     "public": true
   }

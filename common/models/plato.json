@@ -6,14 +6,34 @@
     "nombre": {
       "type": "string",
       "required": true
+    },
+    "precio": {
+      "type": "number",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-  	 "restaurante": {
+    "restaurante": {
       "type": "belongsTo",
       "model": "restaurante",
       "foreignKey": ""
+    },
+    "items": {
+      "type": "hasMany",
+      "model": "item",
+      "foreignKey": "",
+      "through": "platoitem"
+    },
+    "pedidos": {
+      "type": "hasMany",
+      "model": "pedido",
+      "foreignKey": "",
+      "through": "platopedido"
     }
   },
   "acls": [],

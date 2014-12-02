@@ -1,3 +1,3 @@
 module.exports = function(Restaurante) {
-Restaurante.validatesUniquenessOf('nombre',{message:"El Nombre del ya está en uso"})
+Restaurante.validatesUniquenessOf('nombre',{message:"El Nombre del restaurante ya está en uso"})
 };
