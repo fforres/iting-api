@@ -20,6 +20,9 @@
     "telefono": {
       "type": "string"
     },
+    "urlImagen":{
+    	"type": "string"
+    },
     "enabled": {
       "type": "boolean"
     }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to your new Koding workspace
 
 This workspace, which lives inside the 'Workspaces' folder of your
@@ -16,7 +15,3 @@ like IDE settings, files open, Terminals open, etc.
 You can create as many new workspaces as you need on your VM.
 
 Enjoy and Happy Koding!
-=======
-iting-api
-=========
->>>>>>> edebcf39512f6e0742241f79dcb8072de2f7cee9

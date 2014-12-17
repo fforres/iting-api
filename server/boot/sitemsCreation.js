@@ -43,25 +43,8 @@ module.exports = function(app) {
                 ]
 			}
 		};
-		
-		a = {   
-		    "where":
-		    {
-		        "and":
-		        [
-		            {
-		                "nombre":{"eq":"item0"}
-		            },
-		            {
-		                "restauranteId":{"eq":"546f6aa7859cc2060d99ec06"}
-		            }
-                ]
-		    }
-		}
 	    Item.find(ob
 	    ,function(err,items){
-		    console.log(err);
-		    console.log(items);
 			if(items.length == 0){
 			    console.log("creando Item")
 				Item.create(
